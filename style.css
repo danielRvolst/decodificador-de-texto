@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #F3F5FC;
+}
+
+header img{
+    margin-top: 1%;
+}
+
+main{
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.criptografar{
+    margin-left: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+textarea{
+    width: 610px;
+    height: 303px;
+    border-radius: 24px;
+    font-size: 32px;
+    color: #0A3871;
+    border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-weight: 400;
+    line-height: 150%;
+    font-style: normal;
+    padding: 25px;
+}
+
+.aviso{
+    display: flex;
+    margin: 1%;
+}
+
+.aviso__texto{
+    font-family: "Inter", sans-serif;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 12px;
+    width: 228px;
+    height: 18px;
+}
+
+.aviso__img{
+    width: 16px;
+    height: 16px;
+}
+
+.botoes_layout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.botoes_layout_cript{
+    border-radius: 24px;
+    background-color: var(--Dark-blue-dark-blue-300, #0A3871);
+    width: 328px;
+    padding: 24px;
+    gap: 8px;
+    flex-shrink: 0;
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.botoes_layout_descript{
+    background-color: #D8DFE8;
+    width: 328px;
+    padding: 24px;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    border: 1px solid var(--Dark-blue-dark-blue-300, #0A3871);
+    color: var(--Dark-blue-dark-blue-300, #0A3871);
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.output, .saida {
+    background-color: #FFF;
+    color: var(--Gray-gray-400, #495057);
+    border-radius: 32px;
+    margin-right: 5%;
+    height: 460px;
+    width: 400px;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around; 
+    align-items: center;
+}
+
+.saida {
+    display: none;
+}
+
+.saida_imgTexto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50px;
+    width: 400px;
+}
+
+.saida_imgTexto img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.saida_texto_princiapal{
+    font-weight: bold;
+    color: #000;
+    font-size: 20px;
+}
+
+.texto_final {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 5px 5px 5px 5px;
+    height: 75%;
+    width: 90%;
+    overflow: auto;
+    word-break: break-all;
+}
+
+.criado_por{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    background-color: #0A3871;
+    color: #FFF;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    height: 20px;
+}
